@@ -1,5 +1,5 @@
 # tstring-logger
-Python logging with template strings
+Python logging with template strings with support for conditional (lazy) execution of functions in log messages. 
 
 Provides **TStringLogger(logging.Logger)** and sets it as the default logger class upon `import tstring_logger`
 

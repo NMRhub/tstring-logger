@@ -4,7 +4,7 @@ import logging
 import string.templatelib
 import tstring
 
-__version__ =  importlib.metadata.version('tstring_logger')
+__version__ =  importlib.metadata.version('template-string-logger')
 
 
 class TStringLogger(logging.Logger):

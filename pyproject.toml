@@ -1,5 +1,5 @@
 [project]
-name = "tstring_logger"
+name = "template-string-logger"
 description = "Python logger that supports t-strings"
 license = {text = "MIT" }
 version = "1.0"
@@ -10,6 +10,12 @@ authors = [
     {name = "Gerard"},
     {email = "gweatherby@uchc.edu"}
 ]
+
+[project.urls]
+Homepage    = "https://github.com/NMRhub/tstring-logger"
+Repository  = "https://github.com/NMRhub/tstring-logger"
+Issues      = "https://github.com/NMRhub/tstring-logger/issues"
+Changelog   = "https://github.com/NMRhub/tstring-logger/releases"
 
 [tool.setuptools]
 package-dir = {"" = "src" }  # Tells setuptools that the root package is in the "src" directory
